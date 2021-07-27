@@ -148,15 +148,15 @@ $(function() {
           // page 7 
 
           // page 8 
-          let id8 = document.getElementById("main-8");
-          id8.style.top = viewHeight*7+"px";
-          id8.style.left = 0;
-          id8.style.zIndex = 1;
+          // let id8 = document.getElementById("main-8");
+          // id8.style.top = viewHeight*7+"px";
+          // id8.style.left = 0;
+          // id8.style.zIndex = 1;
   
-          let elemnt8 = document.createElement("span");
-          elemnt8.setAttribute('id', "page-8");
-          elemnt8.style.opacity = 0;
-          id8.appendChild(elemnt8);
+          // let elemnt8 = document.createElement("span");
+          // elemnt8.setAttribute('id', "page-8");
+          // elemnt8.style.opacity = 0;
+          // id8.appendChild(elemnt8);
           // page 8 
 
         //  // page 9 
@@ -235,7 +235,7 @@ $(function() {
         TimeMe.trackTimeOnElement("main-5");
         TimeMe.trackTimeOnElement("main-6");
         TimeMe.trackTimeOnElement("main-7");
-        TimeMe.trackTimeOnElement("main-8");
+        // TimeMe.trackTimeOnElement("main-8");
         // TimeMe.trackTimeOnElement("main-9");
         // TimeMe.trackTimeOnElement("main-10");
 
@@ -303,10 +303,10 @@ $(function() {
           document.getElementById("page-7").textContent =
             timeSpentOnElement7.toFixed(2);
 
-            let timeSpentOnElement8 =
-            TimeMe.getTimeOnElementInSeconds("main-8");
-          document.getElementById("page-8").textContent =
-            timeSpentOnElement8.toFixed(2);
+          //   let timeSpentOnElement8 =
+          //   TimeMe.getTimeOnElementInSeconds("main-8");
+          // document.getElementById("page-8").textContent =
+          //   timeSpentOnElement8.toFixed(2);
 
           //   let timeSpentOnElement9 =
           //   TimeMe.getTimeOnElementInSeconds("main-9");
